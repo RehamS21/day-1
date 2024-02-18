@@ -1,23 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
+import Movie from './Movie';
+
+// let movies[]= [
+//   {
+//     title:"Exmple1",
+//     url:"",
+//     describistion:""
+//   },
+//   {
+//     title:"Exmple 2",
+//     url:"",
+//     describistion:""
+//   },
+//   {
+//     title:"Exmple 3",
+//     url:"",
+//     describistion:""
+//   }
+// ];
+
 
 function App() {
-  return (
+
+  return ( // all things in return will appear to screen
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Movie movies={movies[0]}></Movie> */}
     </div>
   );
 }
